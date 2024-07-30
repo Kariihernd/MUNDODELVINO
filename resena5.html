@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisiones</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        footer {
+            background-color: #b3cde0;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+
+        .redes-sociales a {
+            color: white;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+
+        .redes-sociales a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 30px;
+            background-color: #b3cde0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .menu-container {
+            background-color: #b3cde0;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+
+        .left {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .right {
+            padding: 20px;
+        }
+
+        .right h2 {
+            margin-top: 0; /* Eliminar el margen superior del título */
+        }
+
+        .right img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .left img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media only screen and (min-width: 600px) {
+            /* Estilos para pantallas más grandes */
+            .container {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+            .left {
+                width: 50%;
+            }
+            .right {
+                width: 50%;
+            }
+        }
+
+        .maridaje {
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            text-align: center;
+            margin: 10px;
+        }
+
+        .gallery img {
+            width: 150px;
+            border-radius: 5px;
+            flex-shrink: 0;
+        }
+
+        .specific-img {
+            width: 300%; /* Ajusta el tamaño según sea necesario */
+            height: auto;
+            border: 2px solid #000; /* Añadir borde, opcional */
+            border-radius: 10px; /* Añadir esquinas redondeadas, opcional */
+        }
+h1{
+    font-size: 20px;
+}.review-container {
+          position: absolute;
+        top: 70%;
+        right: 20%; /* Ajusta este valor para mover el contenedor hacia la derecha */
+        transform: translateY(-50%);
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 310px; /* Ancho del contenedor */
+        overflow: auto; /* Agrega desplazamiento si el contenido excede el tamaño del contenedor */
+}
+    </style>
+</head>
+<body>
+  <ul class="menu">
+        <center><div class="highlight">MUNDO DEL VINO</div></center>
+        <div class="menu-container">
+     <li><a href="index.html">Inicio</a></li>
+            <li><a href="reseña.html">Reseñas de Vinos</a></li>
+            <li><a href="guias.html">Guías</a></li>
+            <li><a href="recomendaciones bodegas.html">Recomendaciones de Bodegas</a></li>
+            <li><a href="historia vino.html">Historia del Vino</a></li>
+            <li><a href="conocenos.html">Conócenos</a></li>
+            <li><a href="recetas vinos.html">Recetas con Vinos</a></li>
+        </div>
+    </ul>
+    <div class="container">
+        <!-- Contenedor izquierdo con la imagen del vino -->
+        <div class="left">
+            <a href="resena2.html"><img src="https://images.vivino.com/thumbs/C45ybDUxTnWShRkbSTusNg_pb_x960.png" alt="Imagen 1"></a>
+            <div class="maridaje">
+                <h2>Maridaje:</h2>
+                <p>Este vino se disfruta mejor con platos elegantes como el filete de salmón a la parrilla, solomillo de ternera con salsa de vino tinto o pato a la naranja. También es excelente con quesos semi-curados como el Gouda o el Emmental.</p>
+            </div>
+        </div>
+      <div class="right">
+            <!-- Contenido de la reseña -->
+            <div class="review-container">
+            <h2>Opus One 2016 (Estados Unidos)</h2>
+            <h1> <p>"El Opus One 2016 es un vino emblemático de California que muestra la excelencia enológica de la región. Con una nariz cautivadora que revela aromas de moras, ciruelas, tabaco y notas de roble tostado, este vino seduce en boca con su textura sedosa, taninos pulidos y un final largo y persistente. Es un vino que personifica la excelencia de Napa Valley. Sus aromas complejos y su plenitud en boca reflejan la armoniosa combinación de variedades bordolesas. Es un vino que destaca por su sofisticación y su capacidad de envejecimiento." - Wine Spectator. </p> </h1> 
+         </div>
+    </div>
+</div>
+    <!-- Galería de imágenes de los maridajes -->
+    <div class="gallery">
+        <div class="gallery-item">
+            <h3>Carnes de Cordero</h3>
+        <img src="https://hips.hearstapps.com/hmg-prod/images/cordero-deshuesado-con-setas-1581523076.jpg" alt="Imagen 1" style="width: 230px; height: auto;"> 
+        </div>
+        <div class="gallery-item">
+            <h3>Asado Ternera</h3>
+           <img src="https://content-cocina.lecturas.com/medio/2022/05/25/paso_a_paso_para_hacer_rabillo_de_cadera_al_horno_resultado_final_7e99e399_1200x1200.jpg" alt="Imagen 1" style="width: 250px; height: auto;"> 
+        </div>
+        <div class="gallery-item">
+            <h3>Quesos Curados, Patatas fritas<BR> con salsa de queso 'Cheddar'</h3>
+           <img src="https://www.hola.com/imagenes/cocina/recetas/20220420208374/patatas-frita-queso-cheddar/1-77-159/patatas-queso-adob-t.jpg" alt="Imagen 1" style="width: 300px; height: auto;"> 
+        </div>
+        <div class="gallery-item">
+            <h3>Risotto de Trufa </h3>
+             <img src="https://okdiario.com/img/2019/08/03/prueba-esta-receta-de-risotto-de-trufa-seta-de-temporada-y-alcachofas.jpg" alt="Imagen 1" style="width: 330px; height: auto;"> 
+        </div>
+    </div>
+    <footer>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <div class="redes-sociales">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>© 2024 Pie de página <br> EUDAIMONIA</p>
+    </footer>
+</body>
+</html>

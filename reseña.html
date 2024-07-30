@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisiones</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        footer {
+            background-color:  #b3cde0; /* Color de fondo del pie de página */
+            color: white; /* Color del texto del pie de página */
+            padding: 10px 20px; /* Espaciado interno del pie de página */
+            text-align: center; /* Alineación centrada */
+        }
+        footer p {
+            margin-bottom: 10px; /* Espacio inferior */
+        }
+        .redes-sociales a {
+            color: white; /* Color de los iconos */
+            margin: 0 10px; /* Espacio horizontal entre iconos */
+            font-size: 24px; /* Tamaño del icono */
+            transition: color 0.3s; /* Transición suave del color */
+        }
+        .redes-sociales a:hover {
+            text-decoration: underline; /* Cambiar color al pasar el mouse */
+        }
+        .highlight {
+            font-family: 'Permanent Marker', cursive; /* Cambiar la fuente */
+            font-size: 30px; /* Tamaño de fuente más grande */
+            background-color:  #b3cde0; 
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+        .menu-container {
+            background-color: #b3cde0; 
+            padding: 10px 0; /* Espaciado interno */
+            text-align: center;
+        }
+        .menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .menu li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .menu li a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        .right {
+            background-color: white; /* Fondo blanco */
+            justify-content: center; /* Centrar contenido verticalmente */
+            align-items: center; /* Centrar contenido horizontalmente */
+            text-align: center;
+        }
+        /* Estilos para las categorías */
+        .categorias {
+            display: none;
+            position: absolute;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 25px;
+            z-index: 1;
+        }
+        .categorias ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .categorias ul li {
+            margin-bottom: 5px;
+        }
+        .categorias ul li a {
+            color: black;
+            text-decoration: none;
+        }
+        .right img {
+            max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+            height: auto;
+        }
+        /* Galería */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+   <ul class="menu">
+        <center><div class="highlight">MUNDO DEL VINO</div></center>
+        <div class="menu-container">
+     <li><a href="index.html">Inicio</a></li>
+            <li><a href="reseña.html">Reseñas de Vinos</a></li>
+            <li><a href="guias.html">Guías</a></li>
+            <li><a href="recomendaciones bodegas.html">Recomendaciones de Bodegas</a></li>
+            <li><a href="historia vino.html">Historia del Vino</a></li>
+            <li><a href="conocenos.html">Conócenos</a></li>
+            <li><a href="recetas vinos.html">Recetas con Vinos</a></li>
+        </div>
+    <div class="container">
+        <div class="gallery">
+            <!-- Galería de imágenes -->
+          <a href="resena1.html" style="display: inline-block;"> <img src="https://static.millesima.com/s3/attachements/h1000px/1001_2015_c.png" alt="Imagen 1" style="width: 100px; height: auto;"> </a>
+           <a href="resena2.html" style="display: inline-block;"> <img src="https://images.vivino.com/thumbs/AXnEJS3XSRy34gIYBtoeKg_pb_x600.png" alt="Imagen 2" style="width: 110px; height: auto;"> </a>
+  <a href="resena3.html" style="display: inline-block;"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkgT9dNLN2qNw4h1yXDYQpFb57nOTlMswsV6ZfJ8WD&s" alt="Imagen 3" style="width: 125px; height: auto;"> </a>
+  <a href="resena4.html" style="display: inline-block;"> <img src="https://www.wine.com/product/images/w_600,h_600,dpr_2.0,c_fit,q_auto:good,fl_progressive/osczn3frfzzbrw4dz4fk.jpg" alt="Imagen 4" style="width: 110px; height: auto;"> </a>
+  <a href="resena5.html" style="display: inline-block;"> <img src="https://images.vivino.com/thumbs/C45ybDUxTnWShRkbSTusNg_pb_x600.png" alt="Imagen 5" style="width: 115px; height: auto;"> </a>
+  <a href="resena6.html" style="display: inline-block;"> <img src="https://www.wine.com/product/images/w_600,h_600,dpr_2.0,c_fit,q_auto:good,fl_progressive/tz4u67gmorzx5vgmi53n.jpg" alt="Imagen 6" style="width: 120px; height: auto;"> </a>
+ 
+ 
+            <!-- Agrega más imágenes aquí -->
+            <!-- Recuerda cambiar "resena1.html", "resena2.html", etc., por los enlaces reales a las reseñas -->
+        </div>
+    </div>
+    <footer>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <div class="redes-sociales">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 Pie de página <br> EUDAIMONIA</p>
+    </footer>
+
+  
+</body>
+</html>
